@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAiHelper.WebApi", "OpenAiHelper.WebApi\OpenAiHelper.WebApi.csproj", "{7D505295-20B0-43A6-AD91-9C6BF2BC3430}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAiHelper.Endpoints", "OpenAiHelper.Endpoints\OpenAiHelper.Endpoints.csproj", "{32CFB234-6F56-447F-A479-EB6D0CA3D875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAiHelper.Application", "OpenAiHelper.Application\OpenAiHelper.Application.csproj", "{90D53B05-0729-4196-9043-67FE09FC3DEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{7D505295-20B0-43A6-AD91-9C6BF2BC3430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D505295-20B0-43A6-AD91-9C6BF2BC3430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D505295-20B0-43A6-AD91-9C6BF2BC3430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CFB234-6F56-447F-A479-EB6D0CA3D875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CFB234-6F56-447F-A479-EB6D0CA3D875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CFB234-6F56-447F-A479-EB6D0CA3D875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CFB234-6F56-447F-A479-EB6D0CA3D875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D53B05-0729-4196-9043-67FE09FC3DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D53B05-0729-4196-9043-67FE09FC3DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D53B05-0729-4196-9043-67FE09FC3DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D53B05-0729-4196-9043-67FE09FC3DEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
