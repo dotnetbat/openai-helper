@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAiHelper.Endpoints", "O
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{E3687302-83BC-4087-BDDE-0823EA3339BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAiHelper.Integration", "Packages\OpenAiHelper.Integration\OpenAiHelper.Integration.csproj", "{7DD0A73F-9F18-4447-B916-2967BCBFA9AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAi.Integration", "Packages\OpenAi.Integration\OpenAi.Integration.csproj", "{7DD0A73F-9F18-4447-B916-2967BCBFA9AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Integration", "Packages\TelegramBot.Integration\TelegramBot.Integration.csproj", "{FB0C417F-8954-490C-B9AA-B017212D04E2}"
 EndProject

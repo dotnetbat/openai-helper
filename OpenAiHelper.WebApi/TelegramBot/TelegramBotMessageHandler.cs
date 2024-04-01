@@ -1,11 +1,11 @@
-using OpenAiHelper.Integration.Api.Interfaces;
+using OpenAi.Integration.Api.Interfaces;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 using TelegramBot.Integration.Api;
 
-namespace OpenAiHelper.WebApi;
+namespace OpenAiHelper.WebApi.TelegramBot;
 
 public class TelegramBotMessageHandler
 {

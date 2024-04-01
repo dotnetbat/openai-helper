@@ -1,0 +1,7 @@
+POST https://localhost:7214/text-to-speech
+Content-Type: application/json
+
+{
+  "name": "test",
+  "text": "This is a test speech"
+}

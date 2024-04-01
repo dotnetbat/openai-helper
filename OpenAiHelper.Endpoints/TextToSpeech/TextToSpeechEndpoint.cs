@@ -1,10 +1,10 @@
 using FastEndpoints;
-using OpenAiHelper.Integration.Api.Interfaces;
+using OpenAi.Integration.Api.Interfaces;
 
 namespace OpenAiHelper.Endpoints.TextToSpeech;
 
 public class TextToSpeechEndpoint(IAudioService audioService)
-  : Endpoint<TextToSpeechRequest, TextToSpeechResponse>
+  : Endpoint<TextToSpeechRequest, EmptyResponse>
 {
   public override void Configure()
   {
@@ -14,6 +14,6 @@ public class TextToSpeechEndpoint(IAudioService audioService)
 
   public override async Task HandleAsync(TextToSpeechRequest req, CancellationToken ct)
   {
-    await audioService.VocalizeInServerFileAsync(req.Text, req.Name);
+    await audioService.VocalizeInServerFileAsync(req.Name, req.Text);
   }
 }

@@ -1,4 +1,4 @@
-namespace OpenAiHelper.WebApi;
+namespace OpenAiHelper.WebApi.TelegramBot;
 
 public static class TelegramBotConfiguration
 {

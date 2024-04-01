@@ -22,7 +22,7 @@
     
     <ItemGroup>
       <ProjectReference Include="..\OpenAiHelper.Endpoints\OpenAiHelper.Endpoints.csproj" />
-      <ProjectReference Include="..\Packages\OpenAiHelper.Integration\OpenAiHelper.Integration.csproj" />
+      <ProjectReference Include="..\Packages\OpenAi.Integration\OpenAi.Integration.csproj" />
       <ProjectReference Include="..\Packages\TelegramBot.Integration\TelegramBot.Integration.csproj" />
     </ItemGroup>
     

@@ -1,7 +1,8 @@
 using FastEndpoints;
+using OpenAi.Integration.Api;
 using OpenAiHelper.Endpoints.TextToSpeech;
-using OpenAiHelper.Integration.Api;
 using OpenAiHelper.WebApi;
+using OpenAiHelper.WebApi.TelegramBot;
 using TelegramBot.Integration.Api;
 
 var builder = WebApplication.CreateBuilder(args);
