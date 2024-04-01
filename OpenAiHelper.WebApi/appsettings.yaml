@@ -1,0 +1,23 @@
+AppName: openai-helper-service
+
+Serilog:
+  MinimumLevel:
+    Default: Information
+    Override:
+      Microsoft: Information
+      System: Warning
+
+Kestrel:
+  EndpointDefaults:
+    Protocols: Http1AndHttp2
+    
+OpenAiSettings:
+  ApiKey: ""
+  OrgainzationId: ""
+
+TelegramSettings:
+  BotToken: ""
+
+FsSettings:
+  AudioFolder: ""
+  

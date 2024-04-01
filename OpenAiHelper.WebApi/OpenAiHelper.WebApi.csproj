@@ -5,11 +5,29 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <InvariantGlobalization>true</InvariantGlobalization>
+        <UserSecretsId>53a4239b-a5a5-4c4f-ba25-8e41a1444d3f</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="NetEscapades.Configuration.Yaml" Version="3.1.0"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Content Include="appsettings.yaml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\OpenAiHelper.Endpoints\OpenAiHelper.Endpoints.csproj" />
+      <ProjectReference Include="..\Packages\OpenAiHelper.Integration\OpenAiHelper.Integration.csproj" />
+      <ProjectReference Include="..\Packages\TelegramBot.Integration\TelegramBot.Integration.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\OpenAiHelper.Endpoints\OpenAiHelper.Endpoints.csproj" />
     </ItemGroup>
 
 </Project>

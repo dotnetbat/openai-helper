@@ -1,0 +1,7 @@
+POST https://localhost:7214/text-to-speech
+Content-Type: application/json
+
+{
+  "name": "new1",
+  "text": "Ex-Chef vom Verfassungsschutz, Maaßen, hat eine Klage gegen seinen alten Arbeitgeber gemacht. Er sagt, dass das Amt und die Innenministerin Faeser ihn ohne Erlaubnis beobachten und Infos über ihn sammeln. Maaßen hat seine Klage beim Verwaltungsgericht in Köln eingereicht. Er ist sauer, weil das Verfassungsschutzamt Infos über ihn gespeichert hat. Maaßen meint, dass die Ministerin Faeser das Amt benutzt, um Leute zu beobachten, die nicht mit der Regierung einverstanden sind. Er findet, dass das nicht richtig ist und gegen die Regeln verstößt.\n\nMaaßen hat viele Seiten geschrieben, um seine Klage zu erklären. Er sagt, es gibt keinen guten Grund, ihn zu beobachten. Das Amt hat ihn beobachtet, weil jemand in einem Brief über ihn geschrieben hat und eine andere Person Videos von ihm geteilt hat. Aber Maaßen sagt, das ist kein Grund, ihn zu beobachten."
+}
