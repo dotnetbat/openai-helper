@@ -50,12 +50,12 @@ public class TelegramBotMessageHandler
             
             _telegramService.ChatsInWork.TryRemove(update.Message.Chat.Id.ToString(), out _);
             
-            var fileName = update.Message.Chat.Id.ToString() + " - " + DateTime.UtcNow.ToString("yyyy-MM-dd HH-mm-ss") + ".mp3";
+            var fileName = update.Message.Chat.Id + " - " + DateTime.UtcNow.ToString("yyyy-MM-dd HH-mm-ss") + ".mp3";
             var audioFile = new InputFileStream(new MemoryStream(audioBytes), fileName);
 
-            await botClient.SendAudioAsync(update.Message.Chat.Id, audioFile);
+            await botClient.SendAudioAsync(update.Message.Chat.Id, audioFile, cancellationToken: ct);
           }
-          else if (!_telegramService.ChatsInWork.ContainsKey(update.Message.Chat.Id.ToString()))
+          else
           {
             await botClient.SendTextMessageAsync(update.Message.Chat.Id, "I don't understand you", cancellationToken: ct);
           }
